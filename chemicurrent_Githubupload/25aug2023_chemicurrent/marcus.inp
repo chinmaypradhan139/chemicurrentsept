@@ -1,0 +1,24 @@
+151 !no_orbitals
+-1 !l_bound
+1 !u_bound
+5.0E-04 !Gamma
+0.04 !Band_width
+4 !spacing 1-IESH gq 2-IESH eq 3-Marcus gq 4-Marcus eq
+0.0002 !omega
+12.6097 !g
+0.0038 !dG
+0.00570 !Temp
+100 !dtc
+1 !dtq
+1 dim
+200 !time_steps
+2 !1 for decoherence, 2 for no decoherence
+50 !num_cores
+2000 !total trajectories
+0 !Tully's population
+0 ! chemicurrent Tully's version
+1 ! Marcus LUMO pop
+0 ! Independent e pop
+0 ! 1 0 stochastic version 
+0 ! chemicurrent independent e
+1 ! Marcus chemicurrent
